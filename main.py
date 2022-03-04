@@ -1,5 +1,11 @@
 # First Program
 
+def reverseString(hello):
+    return hello[::-1]
+
+name = input("Enter the Name")
+reverse = reverseString(name)
+print(reverse)
 
 
 # Second Program
