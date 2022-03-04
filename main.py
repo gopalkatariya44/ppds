@@ -3,7 +3,7 @@
 def reverseString(hello):
     return hello[::-1]
 
-name = input("Enter the Name")
+name = input("Enter the Name : ")
 reverse = reverseString(name)
 print(reverse)
 
@@ -11,10 +11,10 @@ print(reverse)
 # Second Program
 lst = [1,2,3,4,5,6,7,8,9]
 sum = 0
-for i in lst:
-    sum += i
-
-print(sum)
+for i in range(len(lst)):
+    sum = lst[i]*2
+    lst[i] = sum
+print(lst)
 
 
 # Third Program
