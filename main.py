@@ -3,7 +3,7 @@
 def reverseString(hello):
     return hello[::-1]
 
-name = input("Enter the Your Full_Name : ")
+name = input("Enter the Your : ")
 reverse = reverseString(name)
 print(reverse)
 
